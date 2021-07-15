@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> user input</title>
+    </head>
+    <body>
+        <input type="number"  id="num1">
+
+        <input type="date"  id="num2">
+        
+        <button onclick="add()"> add </button>
+        <button onclick="sub()"> add </button>
+        <button onclick="product()"> add </button>
+        <button onclick="division()"> add </button>
+
+    </body>
+</html>
+
+<script>
+    function add(){
+        var num1 =parseInt( document.getElementById("num1"). value ) ;
+        var num2= parseInt( document.getElementbyId("num2"). value) ;
+         var result=num1 + num2;
+
+        alert(result);
+    }
+
+    function sub(){
+        var num1 =parseInt( document.getElementById("num1"). value ) ;
+        var num2= parseInt( document.getElementbyId("num2"). value) ;
+        var result=num1 - num2;
+
+        alert(result);
+    }
+
+</script>
